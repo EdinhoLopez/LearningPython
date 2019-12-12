@@ -117,8 +117,17 @@ asdfasdfdaf'''
 
 print(a)
 
+//Get input from the user!!!
 
+name=input("Enter your name:")
+print(name)
 
+//Convert input from String to integer
+//Input received from input function is String by default
+
+number = input("Enter a number:")
+number = int(number)
+print(number)
 
 
 
