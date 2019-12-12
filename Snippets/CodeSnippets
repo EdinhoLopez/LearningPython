@@ -1,0 +1,125 @@
+//Defining a variable
+//No need to specify data type. Variable stores the address of the value. Not the actual value.
+
+v1 = 5
+
+//Print the value of a variable to the console
+
+print(v1)
+
+//Operators in Python
+
+The AND operator: and
+The OR operator: or
+
+- + / * %
+
+//Division and the result depend on how many slashes you use.
+
+56/5 = 1.2
+56//5 = 1
+
+//Printing to console
+
+print("Hello")
+
+//Prints out value of variables plus a string you can add
+print(total, "gets added to",num)
+
+//Adding a value to a variable plus itself
+
+a = 5
+
+a+=10 is the same as a = a + 10
+
+//Comments in Python
+//Use the # symbol for comments
+
+#THis is a comments and stuff
+
+//Code blocks
+//In Python, code blocks begin with a color and are followed by indentation.
+//The code block ends when the indendation is reversed. USE INDEDATION CAREFULLY!!!!!!!!!!!!!
+//You do not use {} for code blocks in Python indentation is used instead
+
+num = 1234
+
+if(num < 10):
+  print("Hello") 
+
+print("Outside code block")
+
+//If-else-then
+//The indentation determines when if ends and where else starts
+
+if(False):
+  print("Hello")
+
+else:
+  print("not Hello")
+
+print("outside of Code")
+
+//USE THE elif INSTEAD OF ELSE IF!!!!!!!!!!!!!
+
+if(num>0):
+  print("45")
+  print("65")
+
+elif(num<0):
+    
+  print("-45")
+  print("-65 ")
+  
+elif(num==0):
+    print("ZERO")
+
+
+//Or And operators
+//Use the word (or) and the word (and) instead of && ||
+
+if(num>0 or num==0):
+  print("45")
+  print("65")
+
+elif(:
+  print("-45")
+  print("-65 ")
+
+//While loop
+//Similar to java. Just remember the indetation stuff
+
+num = 5;
+
+while (num > 0):
+    print(num)
+    num = num-1
+    
+//Methods
+//Use the def keyword in order to define a method in Python. They are not read unless they are directly called
+
+def calculate_sum(data1, data2):
+    
+    result_sum=data1+data2
+    return result_sum
+
+result=calculate_sum(10,20)
+print(result)
+    
+
+//Multiline string
+//THis string includes the newline values meaning that if you print it, it will have skip lines 
+
+a = '''Gekki
+asdfasd
+asdfasdf
+asdfasdfdaf'''
+
+print(a)
+
+
+
+
+
+
+
