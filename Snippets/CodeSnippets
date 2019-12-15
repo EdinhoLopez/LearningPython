@@ -129,6 +129,197 @@ number = input("Enter a number:")
 number = int(number)
 print(number)
 
+//Creating a while loop
+
+while(a>b):
+  #someCode
+
+//Creating a for loop
+//range is a function
+
+#For loop using tuple
+#Tuple: fixed sized list/array that is immutable
+
+total = 0
+
+for myNum in 4,5,6,7,8,9,10,11,12:
+    total = total + myNum
 
 
+print(total)
 
+#For loop using range
+#range(Starting point, ending point(no included), step)
+
+total = 0
+
+for myNum in range(4,13,1):
+    total = total + myNum
+
+
+print(total)
+
+#For loop using range without step
+#Step by default is 1
+
+total = 0
+
+for myNum in range(4,13):
+    total = total + myNum
+
+print(total)
+
+//Break and continue
+//"break" and "continue" stay the same as in Java
+
+//Lists
+//Lists are similar to arrays in java. 
+//They are generally of a fixed size.
+//Can hold items of different types
+
+marks = [1,2,3,4]
+
+print(marks[0])
+
+//Adding elements to array
+
+marks = []
+
+marks.append(5)
+
+print(marks[0])
+
+//Creating an empty list of a fixed size
+
+marks = [None]*5
+
+print(marks[0])
+
+//Getting the length of a list
+
+marks = [None]*7
+
+print(len(marks))
+
+//Combining two lists together
+
+sample_list = [1,2,3]
+
+new_list = [4,5,6]
+
+##sample_list+=new_list
+
+sample_list = sample_list+new_list
+
+print(sample_list)
+
+OROROROROROROROOROROROROROROROR
+
+sample_list = [1,2,3]
+
+new_list = [4,5,6]
+
+sample_list+=new_list
+
+print(sample_list)
+
+//Iterating through a list
+
+list_of_airlines=["AI","EM","BA"]
+
+#Normal iteration through a list
+print("Iterating the list using range()")
+for index in range(0,len(list_of_airlines)):
+    print(list_of_airlines[index])
+
+#Advanced for loop iteration
+print("Iterating the list using keyword in")
+for airline in list_of_airlines:
+    print(airline)
+
+//If else loop exclusive to Python
+//Will iterate through the list as if it were a loop
+//If the condition is met then the code will be done once and then break
+//If condition was not ever met then the ELSE will be performed
+
+list_of_airlines=["AI","EM","BA"]
+
+airline="AI"
+if airline in list_of_airlines:
+    print("Airline found")
+else:
+    print("Airline not found")
+
+#Output would be "Airline found"
+
+//Slicing lists
+
+
+a = [1,2,3,4,5]
+
+#returns [1,2]
+print(a[0:2])
+
+#Continues until the end of the list
+print(a[0:])
+
+#Changes the increment to 2, thus skipping an element each time
+print(a[0::2])
+
+#Returns list starting from last element until first element
+print(a[5::-1])
+
+print(a[4::-2]) 
+
+//Strings in Python
+//String are very similar to arrays and list
+
+a = "Stuff and things"
+
+print(a[0]) #Prints out "S"
+
+//Combining strings
+//There is no append method in strings so just add them together through "+"
+
+a = "things"
+
+b = " stuff"
+
+a = a + b
+
+print(a) #things and stuff
+
+//Finding characters and substring
+//Use the find() method. Return 1 if found and -1 if not found
+
+a = " stuff"
+
+if(a.find("tu")):
+    print("found it")#Will print out
+ 
+//Dictionaries in Python
+//Dictionaries are similar to HashMaps, they consist of a key and a value
+
+myDictionary = {"name":"Steve", "ssn":190}
+
+#Prints out {'name': 'Steve', 'ssn': 190}
+print(myDictionary)
+
+//Transversing a dictionary
+
+myDictionary["ssn"] #returns 190
+
+//Changing values using keys
+
+myDictionary["ssn"] = 200
+
+//You are able to check the key of the items in the dictionary
+//The variable "word" is compared to the key of the dictionary
+//And whether the word is even a key in the dictionary or not
+for word in english_words_list:
+        
+        if(word in bilingual_dict):
+            
+            swedish_words_list.append(bilingual_dict[word])
+            
+ 
