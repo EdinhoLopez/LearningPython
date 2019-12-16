@@ -321,5 +321,67 @@ for word in english_words_list:
         if(word in bilingual_dict):
             
             swedish_words_list.append(bilingual_dict[word])
-            
- 
+                    
+//You can import Modules (libraries) in order to make your life easier
+//You import the "random" library and can use its functions
+//Generates random numbers between the given range, second parameter not included
+
+import random
+x=1
+y=3
+print(random.randrange(x,y)) 
+
+//Some important String methods that are build in
+
+//Returns the count of a given set of characters. Returns 0 if not found
+name.count("a")
+
+//Returns a new string by replacing a set of characters with another set of characters. It does not modify the original string
+name.replace("a","A")
+
+//Returns the first index position of a given set of characters
+name.find("a")
+
+//Checks if a string starts with a specific set of characters, returns true or false accordingly.
+name.startswith("Ra")
+
+//Checks if a string ends with a specific set of characters, returns true or false accordingly.
+name.endswith("ha")
+
+//Checks if all the characters in the string are numbers, returns true or false accordingly.
+name.isdigit()
+
+//Splits string according to delimiter and returns the list of substring. Space is considered as the default delimiter.
+name.split("a")
+
+//Converts the lowercase letters in string to uppercase
+name.upper()
+
+//Some important functions related to lists
+
+//Returns the index position of the element.
+//In case of multiple occurrence of the element, returns the index of the first occurrence.
+//Throws ValueError, if the element is not found
+num_list.index(10)
+
+//Removes and returns the element at given index position from the list
+num_list.pop(3)
+
+//Removes the first occurring element whose value is 30
+num_list.remove(30)
+
+//Sorts the list in ascending order
+num_list.sort()
+
+//Reverses the list
+num_list.reverse()
+
+//Some important methods in the Math module
+
+//Smallest integer greater than or equal to x
+math.ceil(x)
+
+//Largest integer smaller than or equal to x
+math.floor(x)
+
+//
